@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #222;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px 30px 10px;
+}
+
+header {
+    background: linear-gradient(135deg, #089e6b, #0077c2);
+    color: #fff;
+    padding: 20px 10px 30px 10px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.intro {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.intro strong {
+    color: #0077c2;
+}
+
+.carousel-container {
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    padding: 10px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.carousel-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel-btn button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0077c2;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.carousel-btn button:hover {
+    background-color: #005e97;
+}
+
+.contato {
+    margin: 25px auto 15px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+.contato h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #089e6b;
+}
+
+.contato p {
+    margin: 4px 0;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    color: #0077c2;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #004b80;
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    .intro {
+        font-size: 0.95rem;
+    }
+
+    .contato p {
+        font-size: 0.9rem;
+    }
+}
